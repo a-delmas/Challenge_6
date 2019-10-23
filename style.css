@@ -1,0 +1,30 @@
+header{
+    background-image: url(./images/header.png);
+    color: white;
+}
+nav{
+    background: turquoise;
+}
+
+.media{
+    background: lightgray;
+    padding: 1.5rem;
+}
+.btn{
+    background: linear-gradient(#FF3D00, #FF0000);
+    color: white;
+}
+
+.text-orange{
+    color: #FF3D00;
+}
+
+@media screen and (max-width: 740px){
+    nav{
+        margin-bottom: 1rem;
+    }
+    .media{
+        margin-bottom: 1rem;
+        padding: .5rem;
+    }
+}
