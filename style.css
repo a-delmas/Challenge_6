@@ -6,8 +6,12 @@ nav{
     background: turquoise;
 }
 
+main {
+    background-image: url(./images/fond.png);
+}
+
 .media{
-    background: lightgray;
+    background-image: url(./images/fond-article.png);
     padding: 1.5rem;
 }
 .btn{
@@ -27,4 +31,12 @@ nav{
         margin-bottom: 1rem;
         padding: .5rem;
     }
+}
+
+.foot {
+    background-image: url(./images/footer.png);
+}
+
+.footer {
+    background-image: url(./images/bas-de-page.png);
 }
